@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2EB6C92ACD4F5400AFD31E /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2EB6C82ACD4F5400AFD31E /* APICaller.swift */; };
+		5D2EB6CB2ACD585300AFD31E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2EB6CA2ACD585300AFD31E /* Movie.swift */; };
 		5D77330D2ACACCD4009677EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77330C2ACACCD4009677EA /* AppDelegate.swift */; };
 		5D77330F2ACACCD4009677EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77330E2ACACCD4009677EA /* SceneDelegate.swift */; };
 		5D7733112ACACCD4009677EA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7733102ACACCD4009677EA /* MainTabBarViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D2EB6C82ACD4F5400AFD31E /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		5D2EB6CA2ACD585300AFD31E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		5D7733092ACACCD4009677EA /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D77330C2ACACCD4009677EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D77330E2ACACCD4009677EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 		5D77332D2ACB1019009677EA /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				5D2EB6C82ACD4F5400AFD31E /* APICaller.swift */,
+				5D2EB6CA2ACD585300AFD31E /* Movie.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,11 +209,13 @@
 				5D7733262ACACF84009677EA /* SearchViewController.swift in Sources */,
 				5D7733112ACACCD4009677EA /* MainTabBarViewController.swift in Sources */,
 				5D77332F2ACB108C009677EA /* CollectionViewTableViewCell.swift in Sources */,
+				5D2EB6C92ACD4F5400AFD31E /* APICaller.swift in Sources */,
 				5D7733312ACC0871009677EA /* HeroHeaderUIView.swift in Sources */,
 				5D7733282ACACFA7009677EA /* DownloadsViewController.swift in Sources */,
 				5D77330D2ACACCD4009677EA /* AppDelegate.swift in Sources */,
 				5D77330F2ACACCD4009677EA /* SceneDelegate.swift in Sources */,
 				5D7733242ACACF56009677EA /* UpcomingViewController.swift in Sources */,
+				5D2EB6CB2ACD585300AFD31E /* Movie.swift in Sources */,
 				5D7733222ACACF38009677EA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
