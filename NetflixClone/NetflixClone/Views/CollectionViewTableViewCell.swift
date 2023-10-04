@@ -57,8 +57,8 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
         guard let model = titles[indexPath.row].poster_path else {
             return UICollectionViewCell()
         }
-        
         cell.configure(with: model)
+        
         return cell
     }
     

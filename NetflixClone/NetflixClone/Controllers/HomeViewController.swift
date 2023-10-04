@@ -77,7 +77,6 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         
         switch indexPath.section {
         case Sections.TrendingMovies.rawValue:
-            
             APICaller.shared.getTrendingMovies { result in
                 switch result {
                 case.success(let titles):
@@ -120,7 +119,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                 case.success(let titles):
                     cell.configure(with: titles)
                 case.failure(let error):
-                    print(error.localizedDescription)
+                    print(error)
                 }
             }
         default:
