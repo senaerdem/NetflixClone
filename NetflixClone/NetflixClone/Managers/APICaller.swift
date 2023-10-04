@@ -64,7 +64,7 @@ class APICaller {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 print(results)
             } catch {
-                print(error.localizedDescription)
+                completion(.failure(APIError.failedTogetData))
             }
         }
         task.resume()
