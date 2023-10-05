@@ -26,6 +26,7 @@
 		5D7733282ACACFA7009677EA /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7733272ACACFA7009677EA /* DownloadsViewController.swift */; };
 		5D77332F2ACB108C009677EA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77332E2ACB108C009677EA /* CollectionViewTableViewCell.swift */; };
 		5D7733312ACC0871009677EA /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7733302ACC0871009677EA /* HeroHeaderUIView.swift */; };
+		5DA3CEE92ACF0D3E00D11BAE /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3CEE82ACF0D3E00D11BAE /* SearchResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		5D7733272ACACFA7009677EA /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		5D77332E2ACB108C009677EA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		5D7733302ACC0871009677EA /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		5DA3CEE82ACF0D3E00D11BAE /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,8 @@
 		5D7733202ACACF1F009677EA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5D7733212ACACF38009677EA /* HomeViewController.swift */,
-				5D7733232ACACF56009677EA /* UpcomingViewController.swift */,
-				5D7733252ACACF84009677EA /* SearchViewController.swift */,
-				5D7733272ACACFA7009677EA /* DownloadsViewController.swift */,
+				5DA3CEEB2ACF0EA500D11BAE /* General */,
+				5DA3CEEA2ACF0E8800D11BAE /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -150,6 +150,25 @@
 				5D2EB6C82ACD4F5400AFD31E /* APICaller.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		5DA3CEEA2ACF0E8800D11BAE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5D7733212ACACF38009677EA /* HomeViewController.swift */,
+				5D7733232ACACF56009677EA /* UpcomingViewController.swift */,
+				5D7733252ACACF84009677EA /* SearchViewController.swift */,
+				5D7733272ACACFA7009677EA /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5DA3CEEB2ACF0EA500D11BAE /* General */ = {
+			isa = PBXGroup;
+			children = (
+				5DA3CEE82ACF0D3E00D11BAE /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +257,7 @@
 				5D7733312ACC0871009677EA /* HeroHeaderUIView.swift in Sources */,
 				5D7733282ACACFA7009677EA /* DownloadsViewController.swift in Sources */,
 				5D77330D2ACACCD4009677EA /* AppDelegate.swift in Sources */,
+				5DA3CEE92ACF0D3E00D11BAE /* SearchResultsViewController.swift in Sources */,
 				5D2EB6CD2ACD5D5300AFD31E /* Extensions.swift in Sources */,
 				5D77330F2ACACCD4009677EA /* SceneDelegate.swift in Sources */,
 				5D7733242ACACF56009677EA /* UpcomingViewController.swift in Sources */,
